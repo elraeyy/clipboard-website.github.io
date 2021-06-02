@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', 'sans-serif';
+    line-height: 1.5;
+}
+:root {
+    /* ## Colors */
+    /* ### Primary */
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    /* ### Neutral */
+    --Dark-Grayish-Blue: hsl(210, 3%, 54%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+h2{
+    position: relative;
+    /* left: 25%; */
+    margin-top: 10%;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+body{
+    margin-top: 60px;
+    height: 100vh;
+    display: grid;
+    background-image: url(https://clip-board-landing-page-master.vercel.app/images/bg-header-desktop.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    font-size: 18px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 150px;
+    height: 300px;
+    justify-content: space-between;
+}
+header h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+p{
+    font-size: 18px;
+    color: gray;
+    width: auto;
+    margin: auto;
+    padding: 10px 0;
+    margin-bottom: 5%;
+    width: 60%;
+    margin-left: 0px;
+    
+}
+img{
+    position: relative;
+    /* bottom: 50px; */
+}
+body > header > div > p{
+    width: 680px;
+}
+.header-title{
+    margin-top: 7%;
+}
+body > header > form > button:nth-child(1), #companies > form > button:nth-child(1){
+    background-color: var(--Strong-Cyan);
+    box-shadow: 0px 3px 0px hsl(168deg 52% 39%);
+}
+button{
+    margin: 0 10px;
+    padding: 15px 50px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+body > header > form > button:nth-child(2), #companies > form > button:nth-child(2){
+    background-color: var(--Light-Blue);
+    box-shadow: 0px 3px 0px hsl(233deg 65% 59%);
+}
+#second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#second > p{
+    padding: 10px 0px;
+    width: 680px;
+    margin: auto;
+}
+#picture_section{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+#right_text_section{
+    margin-left: 8%;
+}
+/* #right_text_section > span:nth-child(1) > h2{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+} */
+/* #clipboard_access{
+    display: flex;
+    flex-direction: column;
+} */
+#mid_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#clipboard_access > p{
+    margin-top: 4%;
+    margin-left: 19%;
+}
+#supercharge > p{
+    width: 100%;
+    margin-top: 9%;
+}
+#extra_info{
+    display: flex;
+    text-align: center;
+}
+#extra_info > div:nth-child(1) > p, #extra_info > div:nth-child(2) > p, #extra_info > div:nth-child(3) > p{
+    margin-top: 4%;
+    margin-left: 15%;
+    width: 65%;
+}
+#companies{
+    margin-top: 5%;
+}
+#companies > div{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(200px, 1fr));
+    width: 100%;
+    gap: 50px;
+    padding-bottom: 80px;
+}
+#companies > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#companies > form{
+    position: relative;
+    left: 32%;
+    bottom: 115px;
+}
+body > footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#Soc_Med{
+    display: flex;
+    margin-right: 10px;
+}
+#Faqs > div:nth-child(1), #Faqs > div:nth-child(2){
+    margin-top: 20px;
+}
+#P_P > div:nth-child(2), #P_P > div:nth-child(1){
+    margin-top: 20px;
+}
+#Guide{
+    margin-bottom: 5px;
+}
+#Soc_Med > div:nth-child(1){
+    margin-right: 25;
+}
+#Soc_Med > div:nth-child(2){
+    margin-right: 25;
+}
+.attribution{
+    /* display: flex;
+    flex-direction:row; */
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    margin-top: 20px;
+}
