@@ -37,6 +37,7 @@ body{
     background-size: 100% 100%;
     position: relative;
     font-size: 18px;
+    overflow-x: hidden;
 }
 header{
     display: flex;
