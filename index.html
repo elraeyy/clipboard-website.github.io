@@ -16,12 +16,16 @@
         </picture>
         <div class="header-title">
             <h1>A history of everything you copy</h1>
-            <p>Clipboard allows you to track and organize everything you
+            <p id='demo'>Clipboard allows you to track and organize everything you
             copy. Instantly access your clipboard on all your devices.</p>
           </div>
+          <div class="header-btn">
+            <button class="btn_header" onclick="document.getElementById('demo').innerHTML = 'Hello Javascript!'">Click to change text</button>
+            <button class="btn_header_i" onclick="alert('Kamal is ready for JS :)')" >Click for JS Alert</button>
+  
+          </div>
+
           <form>
-            <button>Download for iOS</button>
-            <button>Download for Mac</button>
           </form>
     </header>
 
@@ -110,6 +114,9 @@
         </form>
 
     </section>
+    <script>
+        document.write(5+5)
+    </script>
     
     <footer>
         <div>

@@ -75,6 +75,9 @@ body > header > div > p{
 .header-title{
     margin-top: 7%;
 }
+.header-btn{
+    display: flex;
+}
 body > header > form > button:nth-child(1), #companies > form > button:nth-child(1){
     background-color: var(--Strong-Cyan);
     box-shadow: 0px 3px 0px hsl(168deg 52% 39%);
@@ -91,6 +94,15 @@ button{
 body > header > form > button:nth-child(2), #companies > form > button:nth-child(2){
     background-color: var(--Light-Blue);
     box-shadow: 0px 3px 0px hsl(233deg 65% 59%);
+}
+.btn_header{
+    background-color: var(--Strong-Cyan);
+    box-shadow: 0px 3px 0px hsl(168deg 52% 39%);
+}
+.btn_header_i{
+    background-color: var(--Light-Blue);
+    box-shadow: 0px 3px 0px hsl(233deg 65% 59%);
+
 }
 #second{
     display: flex;
